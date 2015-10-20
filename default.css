@@ -1,0 +1,525 @@
+
+/* Global Styles                                                                 */
+/*********************************************************************************/
+
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #16a085;
+	font-family: 'Raleway', sans-serif;
+	font-size: 11pt;
+	font-weight: 400;
+	color: #363636;
+}
+
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p {
+	line-height: 190%;
+}
+
+strong {
+}
+
+a {
+	color: #171717;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+	.image
+	{
+		display: inline-block;
+	}
+	
+		.image img
+		{
+			display: block;
+			width: 100%;
+		}
+
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+
+		.image-centered img
+		{
+			margin: 0 auto;
+			width: auto;
+		}
+
+/* Bells and Whistles                                                                */
+/*********************************************************************************/
+
+img{
+
+	border-radius: 10px;
+}
+
+figure img{
+	border-radius: 5%;
+	max-height: 345px;
+	max-width: 345px;
+	height: 315px;
+	width: 315px;
+	box-shadow: 5px 5px 10px #fafafa;
+}
+
+figure img:hover{
+	height: 345px;
+	width: 345px;
+	border: solid #16a085 2px;
+	box-shadow: none;
+}
+
+.videoanimation{
+	width: 345px;
+    height: 345px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.videoanimation:hover {
+    width: 450px;
+    height: 450px;
+    transform: scale(1.5,1.5);
+
+}
+
+.sdeffects:hoover {
+	transform: scale(1.5,1.5);
+
+}
+
+.videoside{
+
+	margin-top: 15px;
+	margin-bottom: 30px;
+	
+}
+
+
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+
+	ul.style1
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	ul.style1 li
+	{
+		border-top: solid 1px #E5E5E5;
+		padding: 0.80em 0;
+	}
+	
+	ul.style1 li:first-child
+	{
+		border-top: 0;
+		padding-top: 0;
+	}
+
+	ul.style2
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	ul.style2 li
+	{
+		border-top: solid 1px #E5E5E5;
+		padding: 0.80em 0;
+	}
+	
+	ul.style2 li:first-child
+	{
+		border-top: 0;
+		padding-top: 0;
+	}
+
+	ul:hover li 
+	{
+    opacity: .5;
+	}
+
+	ul li:hover {
+    opacity: 1;
+	}
+
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 2em;
+		text-transform: uppercase;
+	}
+
+	.title h2
+	{
+		font-weight: 400;
+		font-size: 2em;
+		color: #16a085;
+	}
+	
+	.title .byline
+	{
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #6F6F6F;
+	}
+
+
+/** WRAPPER */
+
+#wrapper {
+	background: #FFFFFF url(images/bg01.png) repeat;
+}
+
+#footer-wrapper
+{
+	background: #0F0F0F;
+}
+
+.container {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+#header-wrapper
+{
+	overflow: hidden;
+	background: url(images/bg01.png) repeat;
+	background-size: 100%;
+	padding: 6em 0em 2em 0em;
+	background: #333333;
+}
+
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header 
+	{
+		position: relative;
+		overflow: hidden;
+		text-align: center;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo 
+	{
+		width: 500px;
+		height: 100px;
+		margin: 0 auto;
+		padding: 2em 0em;
+		text-transform: uppercase;
+	}
+	
+	#logo h1
+	{
+		letter-spacing: 0.10em;
+		font-size: 3em;
+	}
+	
+	#logo p 
+	{
+		letter-spacing: 0.10em;
+		color: #FFF;
+	}
+	
+	#logo a 
+	{
+		text-decoration: none;
+		color: #FFF;
+	}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner 
+	{
+		overflow: hidden;
+		height: 500px;
+		background: url(images/produce_bg.jpg) no-repeat center;
+		background-size: cover;
+	}
+	
+	#banner .image
+	{
+	}
+	
+
+/** MENU */
+
+#menu-wrapper
+{
+	background: #16a085;
+}
+
+#menu {
+	overflow: hidden;
+	height: 100px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	letter-spacing: 1px;
+	padding: 0px 40px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.80em;
+	line-height: 100px;
+	border: none;
+	color: #FFF;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	text-decoration: none;
+}
+
+#menu .current_page_item a {
+	background: #1abc9c;
+}
+
+/** PAGE */
+
+#page
+{
+	position: relative;
+	overflow: hidden;
+	padding: 6em 0em 5em 0em;
+}
+
+/** CONTENT */
+
+#content
+{
+	float: left;
+	width: 790px;
+}
+
+#content2
+{
+	float: left;
+	width: 790px;
+	margin-top: 20px;
+}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+	#sidebar
+	{
+		float: right;
+		width: 305px;
+		background-color: #FAFAFA;
+		box-shadow: 3px 3px 10px #ccc;
+		padding: 40px;
+	}
+	
+	#sidebar .title h2
+	{
+		font-size: 1.6em;
+	}
+	
+	#sidebar .box1
+	{
+		margin-bottom: 3em;
+	}
+
+
+/*********************************************************************************/
+/* Side Facts                                                                    */
+/*********************************************************************************/
+
+.sidefacts {
+
+	margin-bottom: 3em;
+	
+}
+
+.sidefacts p{
+
+	color: #eb8921;
+	margin-top: -1em;
+	margin-bottom: -1em;
+}
+
+
+
+/*********************************************************************************/
+/* ADD Info                                                                    */
+/*********************************************************************************/
+	
+	#addinfo-wrapper
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		background: #1E1B1A;
+	}
+
+	#addinfo
+	{
+		color: #ADADAD;
+	}
+	
+	#addinfo .title h2
+	{
+		font-weight: 400;
+		font-size: 1.2em;
+		color: #FFF;
+	}
+
+	#addinfo .title
+	{
+		border-color: #2D2926 !important;
+	}
+	
+	#addinfo .style1 li
+	{
+		border-color: #2D2926 !important;
+	}
+	
+	#addinfo .style1 a
+	{
+		font-size:1em;
+		color: #B1B1B1;
+	}
+	
+	#box1
+	{
+		float: left;
+		width: 354px;
+		margin-right: 24px;
+		padding-right: 30px;
+	}
+	
+	#box2
+	{
+		float: left;
+		width: 354px;
+		margin-left: 24px;
+		padding-right: 30px;
+	}
+	
+	#box3
+	{
+		float: right;
+		width: 344px;
+		padding-left: 40px;
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		text-align: center;
+	}
+	
+	#copyright p
+	{
+		letter-spacing: 0.20em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.80em;
+		color: rgba(255,255,255,.5);
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,.7);
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
