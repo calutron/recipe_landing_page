@@ -6,7 +6,12 @@
 
 		<meta name="description" content="Beef bourguignon is a stew prepared with beef braised in red wine, red Burgundy, and beef broth, generally flavoured with garlic, onions and a bouquet garni, with pearl onions and mushrooms added towards the end of cooking.">
 
-		<!-- Style -->
+		<!-- Scripts -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		<script src="script.js"></script>
+
+		<!-- Global Style -->
 		<link href="default.css" rel="stylesheet" type="text/css" media="all" />
 
 		<!-- Google Web Fonts -->
@@ -15,10 +20,11 @@
 		<!-- Font Awesome-->
        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-       <link rel="stylesheet" href="font-awesome-animation.css">
+       <!-- JQuery UI-->
+       <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 
-        <!-- Favicon detail makes the difference -->
-        <link rel="shortcut icon" href="/fav.ico" type="image/x-icon" />
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/fav.ico" type="image/x-icon" />
 		
 	</head>
 
@@ -33,6 +39,7 @@
 				<li><a href="#presentation">Presentation</a></li>
 			</ul>
 		</nav>
+
 		<!-- end #menu --> 
 		<header id="header-wrapper">
 			<div id="header" class="container">
@@ -65,7 +72,7 @@
 
                     <aside class="sidefacts">
                     	<header class="title"><h2>Cooking Time</h2></header>
-                    		<p><i class="fa fa-clock-o fa-lg"></i> &nbsp 3 hours</p>  
+                    		<p><i class="fa fa-clock-o fa-lg"></i> &nbsp 13 hours</p>  
                     </aside>
 
                     <aside class="sidefacts">
@@ -121,47 +128,33 @@
 				<span class="byline">When well-executed, Beef Bourguignon is a truly glorious dish. The techniques that govern the preparation of this dish do involve a few extra steps, but these are the details that ensure moist meat and a rich sauce, the signature of a superior Bourguignon.</span> 
 			</header>
 
-				<ul class="style2">
-                    <h4>Preheat the oven to 250 degrees F.</h4>
-                    
-                    <li><h4>Protein Preparation</h4></li>
-                        <ol class="style3" >
-                            <li><p>Heat the olive oil in a large Dutch oven.</p></li>
-                            <li><p>Add the bacon and cook over medium heat for 10 minutes, stirring occasionally, until the bacon is lightly browned.</p></li>
-                            <li><p>Remove the bacon with a slotted spoon to a large plate.</p></li>
-                            <li><p>Dry the beef cubes with paper towels and then sprinkle them with salt and pepper.</p></li>
-                            <li><p>In batches in single layers, sear the beef in the hot oil for 3 to 5 minutes, turning to brown on all sides.</p></li>
-                            <li><p>Remove the seared cubes to the plate with the bacon and continue searing until all the beef is browned.</p></li>
-                            <li><p>Set aside.</p></li>
-                        </ol>
-                    
-                    <li><h4>Base Preparation</h4></li>
-                        <ol class="style3" >
-                            <li><p>Toss the carrots, and onions, 1 tablespoon of salt and 2 teaspoons of pepper in the fat in the pan and cook for 10 to 15 minutes, stirring occasionally, until the onions are lightly browned.</p></li>
-                            <li><p>Add the garlic and cook for 1 more minute.</p></li>
-                            <li><p>Add the Cognac, stand back, and ignite with a match to burn off the alcohol.</p></li>
-                            <li><p>Put the meat and bacon back into the pot with the juices.</p></li>
-                            <li><p>Add the bottle of wine plus enough beef broth to almost cover the meat.</p><p>Add the tomato paste and thyme.</p></li>
-                            <li><p>Bring to a simmer, cover the pot with a tight-fitting lid and place it in the oven for about 1 1/4 hours or until the meat and vegetables are very tender when pierced with a fork.</p></li>
-                        </ol>
-                    
-                    <li><h4>Finishing Touches</h4></li>
-                        <ol class="style3" >
-                            <li><p>Combine 2 tablespoons of butter and the flour with a fork and stir into the stew.</p></li>
-                            <li><p>Add the frozen onions.</p></li>
-                            <li><p>Saute the mushrooms in 2 tablespoons of butter for 10 minutes until lightly browned and then add to the stew.</p></li>
-                            <li><p>Bring the stew to a boil on top of the stove, then lower the heat and simmer for 15 minutes.</p></li>
-                            <li><p>Season to taste.</p></li>
-                        </ol>
-                    
-                    <li><h4>Serving</h4></li>
-                    
-                        <ol class="style3" >
-                            <li><p>Toast the bread in the toaster or oven.</p></li>
-                            <li><p>Rub each slice on 1 side with a cut clove of garlic.</p></li>
-                            <li><p>For each serving, spoon the stew over a slice of bread and sprinkle with parsley.</p></li>
-                      </ol>
-                </ul> 
+				
+                    <ol id="selectable"class="style3" >
+                    	<li class="ui-widget-content">1. Preheat the oven to 250 degrees F.</li>
+                        <li class="ui-widget-content"><p>2. Heat the olive oil in a large Dutch oven.</p></li>
+                        <li class="ui-widget-content"><p>3. Add the bacon and cook over medium heat for 10 minutes, stirring occasionally, until the bacon is lightly browned.</p></li>
+                        <li class="ui-widget-content"><p>4. Remove the bacon with a slotted spoon to a large plate.</p></li>
+                        <li class="ui-widget-content"><p>5. Dry the beef cubes with paper towels and then sprinkle them with salt and pepper.</p></li>
+                        <li class="ui-widget-content"><p>6. In batches in single layers, sear the beef in the hot oil for 3 to 5 minutes, turning to brown on all sides.</p></li>
+                        <li class="ui-widget-content"><p>7. Remove the seared cubes to the plate with the bacon and continue searing until all the beef is browned.</p></li>
+                        <li class="ui-widget-content"><p>8. Set aside.</p></li>
+                        <li class="ui-widget-content"><p>9. Toss the carrots, and onions, 1 tablespoon of salt and 2 teaspoons of pepper in the fat in the pan and cook for 10 to 15 minutes, stirring occasionally, until the onions are lightly browned.</p></li>
+                        <li class="ui-widget-content"><p> 10.Add the garlic and cook for 1 more minute.</p></li>
+                        <li class="ui-widget-content"><p>11. Add the Cognac, stand back, and ignite with a match to burn off the alcohol.</p></li>
+                        <li class="ui-widget-content"><p>12. Put the meat and bacon back into the pot with the juices.</p></li>
+                        <li class="ui-widget-content"><p>13. Add the bottle of wine plus enough beef broth to almost cover the meat.</p>
+                        <li class="ui-widget-content"><p>14. Add the tomato paste and thyme.</p></li>
+                        <li class="ui-widget-content"><p>15. Bring to a simmer, cover the pot with a tight-fitting lid and place it in the oven for about 1 1/4 hours or until the meat and vegetables are very tender when pierced with a fork.</p></li>
+                        <li class="ui-widget-content"><p>16. Combine 2 tablespoons of butter and the flour with a fork and stir into the stew.</p></li>
+                        <li class="ui-widget-content"><p>17. Add the frozen onions.</p></li>
+                        <li class="ui-widget-content"><p>18. Saute the mushrooms in 2 tablespoons of butter for 10 minutes until lightly browned and then add to the stew.</p></li>
+                        <li class="ui-widget-content"><p>19. Bring the stew to a boil on top of the stove, then lower the heat and simmer for 15 minutes.</p></li>
+                        <li class="ui-widget-content"><p>20. Season to taste.</p></li>
+                        <li class="ui-widget-content"><p>21. Toast the bread in the toaster or oven.</p></li>
+                        <li class="ui-widget-content"><p>22. Rub each slice on 1 side with a cut clove of garlic.</p></li>
+                        <li class="ui-widget-content"><p>23. For each serving, spoon the stew over a slice of bread and sprinkle with parsley.</p></li>
+                  </ol>
+                
 		</article>
 	</main>
 </div>

@@ -143,6 +143,7 @@ figure img:hover{
 		margin: 0;
 		padding: 0;
 		list-style: none;
+
 	}
 	
 	ul.style1 li
@@ -176,15 +177,23 @@ figure img:hover{
 		padding-top: 0;
 	}
 
-	ul:hover li 
+
+	ul.style1:hover li 
 	{
     opacity: .5;
 	}
 
-	ul li:hover {
+	ul.style1 li:hover {
     opacity: 1;
 	}
 
+	/* cooking directions*/
+
+  #feedback { font-size: 1.4em; }
+  #selectable .ui-selecting { background: #d8d8d8; }
+  #selectable .ui-selected { background: #eb8921; color: white; }
+  #selectable { list-style-type: decimal-leading-zero; margin: 0; padding: 0; width: 90%; }
+  #selectable li { margin: 8px; padding: 0.4em; font-size: 0.9em; height: 50px; }
 
 /*********************************************************************************/
 /* Heading Titles                                                                */
@@ -205,6 +214,7 @@ figure img:hover{
 	
 	.title .byline
 	{
+		padding-top: 10px;
 		letter-spacing: 0.15em;
 		text-transform: uppercase;
 		font-weight: 400;
@@ -216,7 +226,7 @@ figure img:hover{
 /** WRAPPER */
 
 #wrapper {
-	background: #FFFFFF url(images/bg01.png) repeat;
+	background: #FFFFFF url(images/bg01.jpg) repeat;
 }
 
 #footer-wrapper
@@ -289,6 +299,8 @@ figure img:hover{
 		text-decoration: none;
 		color: #FFF;
 	}
+
+
 
 /*********************************************************************************/
 /* Banner                                                                        */
@@ -385,7 +397,9 @@ figure img:hover{
 		float: right;
 		width: 305px;
 		background-color: #FAFAFA;
-		box-shadow: 3px 3px 10px #ccc;
+		-webkit-box-shadow: 2px 11px 30px -1px rgba(136,136,136,1);
+		-moz-box-shadow: 2px 11px 30px -1px rgba(136,136,136,1);
+		box-shadow: 2px 11px 30px -1px rgba(136,136,136,1);
 		padding: 40px;
 	}
 	
