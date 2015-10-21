@@ -1,5 +1,5 @@
 # Assignment: Your Favourite Recipe
-first update
+WEB-DEV PREP Course
 
 Objective: Demostrate basic knowledge of frontend
 Scope: To create a HTML5 landing-page with my favourite recipe. 
