@@ -15,7 +15,15 @@ var firstAnimation = function(){
      	);
   };
 
+  $('#productdetail').hide();
+
+  $('button').click(function() {
+        $('#productdetail').fadeIn('slow');
+    });
+
 });
+
+
 
 
 

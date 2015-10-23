@@ -82,6 +82,7 @@ a img {
 			width: auto;
 		}
 
+/*********************************************************************************/
 /* Bells and Whistles                                                                */
 /*********************************************************************************/
 
@@ -131,6 +132,103 @@ figure img:hover{
 	
 }
 
+/*Dynamic Styles*/
+
+#commerce
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		text-align: center;
+	}
+	
+	#commerce p
+	{
+		letter-spacing: 0.40em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 1.6em;
+		color: rgba(255,255,255,.8);
+	}
+	
+	#commerce a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,.7);
+	}
+
+.container2 {
+	width: 100%;
+	margin: 0px auto;
+	
+}
+
+.products {
+
+	margin-top: 60px;
+
+}
+
+.products img{
+
+	margin-right: 5px;
+	margin-left: 5px;
+
+}
+
+#productdetail img{
+	box-shadow: 5px 5px 10px #fafafa;
+	border-radius: 10px;
+
+}
+
+#productdetail p {
+
+		margin-top: 40px;
+		margin-left: 120px;
+		margin-right: 120px;
+		border: solid white 1px;
+		padding: 10px;
+		letter-spacing: 0.10em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 1em;
+		color: rgba(255,255,255,.8);
+
+}
+
+#productdetail a
+	{
+		text-decoration: underline;
+		color: rgba(255,255,255,.7);
+	}
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		margin-top: 1.5em;
+		padding: 1.50em 3em 1.50em 3em;
+		background: #16a085;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.80em;
+		color: #FFF;
+	}
+	
+		.button:before
+		{
+			display: inline-block;
+			width: 40px;
+			height: 40px;
+			line-height: 40px;
+			border-radius: 20px;
+			text-align: center;
+			color: #FFF;
+		}
 
 
 /*********************************************************************************/
